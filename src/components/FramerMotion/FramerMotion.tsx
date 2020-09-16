@@ -1,27 +1,20 @@
 import React from "react";
-import { Frame } from "framer";
 
-import "./FramerModion.css";
+import "./FramerMotion.css";
 import { Divider } from "antd";
+import FrameLib from "./FrameLibrary/FrameLib";
+import AnimationLib from "./AnimationLibrary/AnimationLib";
 
 function FramerMotion() {
   return (
     <div className="container">
-      <h1>Framer Motion</h1>
+      <h1>Framer</h1>
+      <a href="https://www.framer.com/api/frame" target="_blank" rel="noopenner noereferer">API</a>
       <Divider />
-      <h2>Framer</h2>
-      <h3>Animate</h3>
-      <div>
-        <Frame
-          animate={{
-            scale: 0.5,
-            rotate: 360,
-            background: ["#F00", "#0F0", "#00F"],
-          }}
-          radius={30}
-          transition={{ duration: 2, ease: "linear", loop: Infinity }}
-        />
-      </div>
+      <h2>Frame</h2>
+      <FrameLib />
+      <h2>Animation</h2>
+      <AnimationLib />
     </div>
   );
 }

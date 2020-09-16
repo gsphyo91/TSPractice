@@ -1,0 +1,10 @@
+/* .frame-container {
+  display: flex;
+  flex-direction: column;
+} */
+
+pre {
+  background-color: #000055;
+  color: #FFFFFF;
+  padding: 10px;
+}
