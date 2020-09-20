@@ -9,7 +9,7 @@ function FramerMotion() {
   return (
     <div className="container">
       <h1>Framer</h1>
-      <a href="https://www.framer.com/api/frame" target="_blank" rel="noopenner noereferer">API</a>
+      <a href="https://www.framer.com/api/frame" target="_blank" rel="noopener noreferrer">API</a>
       <Divider />
       <h2>Frame</h2>
       <FrameLib />
