@@ -1,4 +1,4 @@
-import { Color, Frame, Variants } from "framer";
+import { Frame, Variants } from "framer";
 import React from "react";
 
 function AnimationOrchestration() {
@@ -40,7 +40,6 @@ function AnimationOrchestration() {
         <Frame variants={item} size={150} />
         <Frame variants={item} size={70} />
       </Frame>
-      <Frame background={Color.grayscale(Color("#0000FF"))} />
     </div>
   );
 }
