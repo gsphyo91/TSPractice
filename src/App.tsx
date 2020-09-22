@@ -6,7 +6,7 @@ import Contents from "./components/Contents";
 
 import "./App.css";
 
-const contentArr = ["Home", "Login", "SearchAPI", "Framer Motion"];
+const contentArr = ["Home", "Login", "SearchAPI", "Framer Motion", "Video.JS"];
 
 function App() {
   const [visible, setVisible] = useState(false);

@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import FramerMotion from "./FramerMotion/FramerMotion";
 import Login from "./Login/Login";
 import SearchAPI from "./SearchAPI/SearchAPI";
+import VideoJS from "./VideoJS/VideoJS";
 
 type contentProps = {
   content: number;
@@ -16,6 +17,8 @@ function Contents({ content }: contentProps) {
         <SearchAPI />
       ) : content === 3 ? (
         <FramerMotion />
+      ) : content === 4 ? (
+        <VideoJS />
       ) : null}
     </Fragment>
   );
