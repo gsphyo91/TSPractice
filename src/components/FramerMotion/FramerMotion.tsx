@@ -5,6 +5,9 @@ import { Divider } from "antd";
 import FrameLib from "./FrameLibrary/FrameLib";
 import AnimationLib from "./AnimationLibrary/AnimationLib";
 import PageLib from "./PageLibrary/PageLib";
+import ScrollLib from "./ScrollLibrary/ScrollLib";
+import StackLib from "./StackLibrary/StackLib";
+import UtilitiesLib from "./UtilitiesLibrary/UtilitiesLib";
 
 function FramerMotion() {
   return (
@@ -26,6 +29,15 @@ function FramerMotion() {
       <Divider />
       <h2>Page</h2>
       <PageLib />
+      <Divider />
+      <h2>Scroll</h2>
+      <ScrollLib />
+      <Divider />
+      <h2>Stack</h2>
+      <StackLib />
+      <Divider />
+      <h2>Utilities</h2>
+      <UtilitiesLib />
     </div>
   );
 }

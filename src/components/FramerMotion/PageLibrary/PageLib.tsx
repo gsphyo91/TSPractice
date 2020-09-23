@@ -13,6 +13,7 @@ function PageContent() {
   };
   return (
     <Page
+      position="relative"
       alignment="end"
       contentHeight="auto"
       contentOffsetX={20}
